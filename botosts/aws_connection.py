@@ -5,6 +5,9 @@ import boto3
 import os
 from boto.sts import STSConnection
 from boto3.session import Session
+# Do not remove those imports, they are needed by `_get_boto_service`
+from boto import vpc, iam
+from boto.ec2 import autoscale
 
 from cloud_connection import ACloudConnection
 
