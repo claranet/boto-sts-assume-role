@@ -28,7 +28,7 @@ class AWSConnection(ACloudConnection):
             role_arn_format = "arn:{0}:iam::{1}:role/{2}"
             assumed_role_name = self._parameters.get('assumed_role_name', '')
             self._role_arn = role_arn_format.format(aws_partition, assumed_account_id, assumed_role_name)
-            self._role_session = 'cloud_deploy_x_account_{}_{}'.format(assumed_account_id, assumed_role_name)
+            self._role_session = 'assume-role_{}_{}'.format(assumed_account_id, assumed_role_name)[:63]
         else:
             self._role_arn = None
 
