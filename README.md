@@ -1,5 +1,5 @@
 # botosts - AWS Python SDK wrapper
-[![boto3](https://img.shields.io/badge/documentation-boto3-brightgreen.svg)](https://boto3.readthedocs.io/en/latest/) [![boto2](http://img.shields.io/badge/documentation-boto-brightgreen.svg)](http://boto.cloudhackers.com/en/latest/ref/) [![Changelog](https://img.shields.io/badge/changelog-release-green.svg)](https://bitbucket.org/morea/boto-sts-assume-role/src/master/CHANGELOG.md) [![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://bitbucket.org/morea/boto-sts-assume-role/src/master/LICENSE)
+[![boto3](https://img.shields.io/badge/documentation-boto3-brightgreen.svg)](https://boto3.readthedocs.io/en/latest/) [![boto2](http://img.shields.io/badge/documentation-boto-brightgreen.svg)](http://boto.cloudhackers.com/en/latest/ref/) [![Changelog](https://img.shields.io/badge/changelog-release-green.svg)](https://github.com/claranet/boto-sts-assume-role/blob/master/CHANGELOG.md) [![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/claranet/boto-sts-assume-role/blob/master/LICENSE)
 
 botosts is a wrapper on top of boto(2) and boto3.
 It handles STS Assume Role and return the appropriated boto2 or boto3 client, fully initialized.
@@ -65,4 +65,4 @@ License
 
 This SDK is distributed under the
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0),
-see [LICENSE](https://bitbucket.org/morea/boto-sts-assume-role/src/master/LICENSE) and [NOTICE](https://bitbucket.org/morea/boto-sts-assume-role/src/master/NOTICE) for more information.
+see [LICENSE](https://github.com/claranet/boto-sts-assume-role/blob/master/LICENSE) and [NOTICE](https://github.com/claranet/boto-sts-assume-role/blob/master/NOTICE) for more information.
