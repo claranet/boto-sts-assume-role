@@ -23,7 +23,7 @@ Installation
 With [pip](https://pip.pypa.io) (in a [virtualenv](https://virtualenv.pypa.io) or not)
 
 ```
-pip install git+ssh://bitbucket.org/morea/boto-sts-assume-role
+pip install git+ssh://github.com/claranet/boto-sts-assume-role
 ```
 
 Examples
