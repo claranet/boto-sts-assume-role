@@ -8,7 +8,7 @@ from codecs import open
 from setuptools import setup, find_packages
 import os
 
-requirements = parse_requirements('requirements.in', session='hack')
+requirements = parse_requirements('requirements.txt', session='hack')
 here = os.path.abspath(os.path.dirname(__file__))
 
 about = {}
